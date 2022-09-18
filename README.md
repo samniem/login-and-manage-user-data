@@ -3,6 +3,15 @@ Adobe XD and React.js demo project where the user is able to login, and then man
 
 ## 1. Mock Design with Adobe XD
 
+[Adobe XD design file](https://github.com/samniem/login-and-manage-user-data/blob/main/design/Stellar%20Operations%20Management.xd)
+
+### Login UI
+![LoginUI](https://github.com/samniem/login-and-manage-user-data/blob/main/design/design1.png)
+
+### User Data Management UI
+
+![UseDataManagement](https://github.com/samniem/login-and-manage-user-data/blob/main/design/design2.png)
+
 ## 2. Component Hierarchy Breakdown
 
 ## 3. Static Version of the Web Site
