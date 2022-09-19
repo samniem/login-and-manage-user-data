@@ -20,7 +20,7 @@ Adobe XD and React.js demo project where the user is able to login, and then man
 
 ### User Data Management Hierarchy
 
-
+![LoginUIHierarchy](https://github.com/samniem/login-and-manage-user-data/blob/main/design/Management%View%Hierarchy.jpg)
 
 ## 3. Static Version of the Web Site
 
