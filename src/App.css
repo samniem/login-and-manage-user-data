@@ -42,6 +42,22 @@
   padding-left: 2rem;
 }
 
+.FormNotes {
+  display: inline-block;
+  padding-right: 100px;
+  width: 450px;
+}
+
+.FormSend {
+  background-color: #10E5DD;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border-color: #10E5DD;
+  color: white;
+  padding: 2px 2rem;
+  display: inline-block;
+}
+
 .GridBlock {
   display: block;
   padding-bottom: 0.5rem;

@@ -2,14 +2,14 @@ import './App.css';
 import { Header } from './components/header'
 import { LoginContainer } from './components/loginContainer'
 import { FormContainer } from './components/formContainer'
-import { Logout } from './components/logout'
+import { LogoutButton } from './components/logout'
 
 function App() {
   return (
    <div className="App">
       <Header />
       <LoginContainer />
-      <Logout />
+      <LogoutButton />
       <FormContainer />
     </div>
   );
