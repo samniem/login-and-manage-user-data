@@ -43,6 +43,8 @@ Adobe XD and React.js demo project where the user is able to login, and then man
 
 ## 3. Static Version of the Web Site
 
+![StaticImplementation](https://github.com/samniem/login-and-manage-user-data/blob/main/static/static-implementation.png)
+
 ## 4. Minimal UI State Representation
 
 ## 5. Identify Where the States Live

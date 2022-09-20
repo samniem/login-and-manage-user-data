@@ -1,7 +1,7 @@
 
 
 export const FormContainer = () => {
-    return <div className="Container" style={{"width": "80%"}}>
+    return <div className="Container" style={{"width": "900px"}}>
         <h2>User123</h2>
         <form className="Form">
             <div className="FormGrid">
@@ -54,9 +54,15 @@ export const FormContainer = () => {
                     <input type="text"></input>
                 </div>
             </div>
-            <label>Notes</label>
-            <textarea rows="3" />
-            <input className="Button" type="button" value={"Update"}></input>
+            <div className="FormBottomGrid">
+                <div className="GridDiv">
+                    <label  className="GridBlock">Notes</label>
+                    <textarea rows="3" cols="55"/>
+                </div>
+                <div className="UpdateDiv">
+                    <input className="Button" type="button" value={"Update"}></input>
+                </div>
+            </div>
         </form>
     </div>
 }
