@@ -11,13 +11,22 @@ function App() {
 
   const [loggedIn, updateLoggedIn] = useState(false)
 
+  const attemptLogin = (e, data) => {
+    e.preventDefault()
+    if(data.username === user[0] && data.password === user[1]) {
+      updateLoggedIn(true)
+    }
+  }
+
+  const logout = () => updateLoggedIn(false)
+
   return (
    <div className="App">
       <Header />
       {!loggedIn ? 
-        <LoginContainer /> :
+        <LoginContainer attemptLogin={attemptLogin}/> :
          <>
-          <LogoutButton />
+          <LogoutButton logout={logout}/>
           <FormContainer userName={user[0]}/>
         </>
       }

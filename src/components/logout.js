@@ -1,5 +1,5 @@
 import './../App.css'
 
-export const LogoutButton = () => {
-    return <button className="Button LogoutButton">Logout</button>
+export const LogoutButton = ({logout}) => {
+    return <button className="Button LogoutButton" onClick={() => logout()}>Logout</button>
 }
