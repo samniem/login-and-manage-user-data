@@ -47,6 +47,31 @@ Adobe XD and React.js demo project where the user is able to login, and then man
 
 ## 4. Minimal UI State Representation
 
+The minimal state for this particular implementation will involve two stateful objects. The first one will be for if the user is loggedIn or not. This one can be a simple boolean although in a real implementation with a backend and a database we might have needed to use a more comprehensive state. Secondly, we will have a state for the formData tat will contain an assortment of strings. Some of the strings could benefir from TypeScript for setting types with only certain string options. We might implement this in a future version but for the time being we will stick only to JavaScript and React to keep focus on learning and improving only a few things at a time. 
+
+
 ## 5. Identify Where the States Live
 
+Since the loggedIn state is used by the App component by default we must place the loggedIn state either in the App component or a separate component. We have opted for using the App component here. Secondly, the form state is used by subcomponents of the Form component, so we will simply locate the formData state inside the Form component. If the complexity starts increasing during implementation we may consider having a separate component for formData. 
+
+![MinimalState](https://github.com/samniem/login-and-manage-user-data/blob/main/implementation/State.jpg)
+
+### Practical Implementation
+
+The code and UI for loggedIn state looks like below:
+![LoggedIn](https://github.com/samniem/login-and-manage-user-data/blob/main/implementation/logged-in-state.png)
+
+![LoginUI](https://github.com/samniem/login-and-manage-user-data/blob/main/implementation/login-ui.png)
+
+
+And for formData without the inverse dataflow the code and UI look as shown below
+
+![formstate1](https://github.com/samniem/login-and-manage-user-data/blob/main/implementation/form-state-1.png)
+
+![formstate2](https://github.com/samniem/login-and-manage-user-data/blob/main/implementation/form-state-2.png)
+
+![FormUI](https://github.com/samniem/login-and-manage-user-data/blob/main/implementation/form-ui.png)
+
+
 ## 6. Inverse Dataflow
+
