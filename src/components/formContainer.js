@@ -1,6 +1,21 @@
 import './../App.css'
 import { useState } from 'react'
 
+let defaultUser = {
+    firstname: 'Jaska',
+    lastname: 'Avaruus',
+    alias: 'Reckoning',
+    phone: '+99901010101',
+    email: 'test@test.test',
+    vr_user: 'ReckoningHost',
+    address: 'Mound Street 1',
+    base: 'Dark Side',
+    planet: 'Mars',
+    position: 'Exploration Specialist',
+    department: 'Mars Exploration',
+    manager: 'Norr Guldrop',
+    notes: ''
+}
 
 const FormField = ({name, data, field, update}) => {
     return <div className="GridDiv">
@@ -22,21 +37,6 @@ const FormSend = ({sendForm}) => {
             </div>
 }
 
-let defaultUser = {
-    firstname: 'Jaska',
-    lastname: 'Avaruus',
-    alias: 'Reckoning',
-    phone: '+99901010101',
-    email: 'test@test.test',
-    vr_user: 'ReckoningHost',
-    address: 'Mound Street 1',
-    base: 'Dark Side',
-    planet: 'Mars',
-    position: 'Exploration Specialist',
-    department: 'Mars Exploration',
-    manager: 'Norr Guldrop',
-    notes: ''
-}
 
 const Form = () => {
 

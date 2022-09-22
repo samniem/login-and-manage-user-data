@@ -75,4 +75,10 @@ And for formData without the inverse dataflow the code and UI look as shown belo
 
 ## 6. Inverse Dataflow
 
+### Form Inverse Dataflow
 
+![FormInverseDataFlow](https://github.com/samniem/login-and-manage-user-data/blob/main/implementation/formInverseDataFlow.png)
+
+### 
+
+![LoggedInInverseDataFlow](https://github.com/samniem/login-and-manage-user-data/blob/main/implementation/loggedinReverseFlow.png)
